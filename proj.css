@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contaner1::-webkit-scrollbar{
+    display: none;
+}
+.flex-cont::-webkit-scrollbar{
+    display: none;
+}
+.flex-cont1::-webkit-scrollbar{
+    display: none;
+}
+.flex-cont2::-webkit-scrollbar{
+    display: none;
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    
+}
+.left-sec {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 1px;
+
+}
+.right-sec {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.home{
+    font-size: 25px;
+    background-color:black;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    
+}
+.right-sec-logo{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 6px;
+
+    
+}
+.fa-spotify{
+    font-size: 35px;
+}
+.navbar input{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 8px 8px 8px 32px;
+    width: 250px;
+    
+}
+.login{
+    border-radius: 25px;
+    padding: 10px;
+    width: 80px;
+}
+#signup{
+    gap: 5px;
+    margin-left: 20px;
+}
+.search{
+ position: relative;  
+
+}
+.search i {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   color: black;
+}
+.importent {
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    
+    
+}    
+.left{
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    width: 35%;
+    height: 90%;
+    position: fixed;
+    top: 45px;
+    left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    
+
+}
+
+.play-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.right{
+    background-color:#181818;
+    /* max-width: 90%; */
+    width: 60%;
+    height: 100%;
+    color: white;
+    bottom: 12px;
+    border-radius: 7px;
+    margin-left: 37%;
+}
+
+.playlist{
+    margin-top: 20px;
+    background: #303030;
+    padding: 20px 10px;
+    border-radius:10px;
+}
+
+.playlist button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.English
+{
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+.cookies ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 5px;
+
+}
+.cookies ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.cookies ul li{
+    padding-bottom: 10px;
+}
+.right{
+    margin-top: 55px;
+    background: #303030;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.right::-webkit-scrollbar{
+    display: none;
+}
+
+.contaner1{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    gap: 30px;
+}
+.item{
+    max-width:130px;
+    min-width:130px;
+}
+.item img {
+    width: 100%;
+}
+.item h3 {
+    font-size: 15px;
+}
+.item p {
+    font-size: 13px;
+}
+
+.contaner2 h1 {
+    margin: 30px 0 15px 0;
+}
+.flex-cont{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll; 
+
+}
+
+.flex-cont .item {
+    text-align: center;
+}
+
+.circle-img {
+    min-width: 140px;
+    max-width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contaner3{
+    width: 100%;
+}
+.contaner3 h1 {
+    margin: 30px 0 15px 0;
+}
+.flex-cont1 {
+    width: 100%;
+    overflow-x: scroll;
+    gap: 20px;
+    display: flex;
+}
+.flex-cont2{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    overflow-x: scroll;
+}
+.contaner3 h1 {
+    margin: 30px 0 15px 0;
+}
+.footer{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.list-cont{
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.list-cont li{
+    list-style: none;
+}
+hr {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+@media (max-width:320px){
+    .left-sec{
+        width: 500px;
+    }
+    .search{
+        font-size: 8px;
+    margin-top: 2px;
+    width: 240px;  
+}
+.left{
+    display: none;
+}
+.right {
+    margin-left: 0;
+}
+
+    }
+@media (max-width:850px){
+    .sec{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .left{
+        display: none;
+    }
+    .right{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .navbar input{
+        width: 90%;
+    }
+    .fa-solid {
+        font-size: 20px;
+    }
+}
